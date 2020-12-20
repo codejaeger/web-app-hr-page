@@ -16,7 +16,7 @@ window.chartColors = {
     return Math.round(Math.random() * 100);
   };
   
-  var label1 = "Hello";
+  var label1 = "Performance";
   
   var color = Chart.helpers.color;
   var config = {
@@ -29,7 +29,7 @@ window.chartColors = {
         backgroundColor: color(window.chartColors.red).alpha(0.2).rgbString(),
         borderColor: window.chartColors.red,
         pointBackgroundColor: window.chartColors.red,
-        data: [0,1,3,2,2],
+        data: [4,1,3,2,2],
         notes: ["I am pretty happy","I am isolated","none","none","none","none","none","none"]
       }]
     },

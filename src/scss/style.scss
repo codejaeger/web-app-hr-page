@@ -4,7 +4,7 @@
     // background: -webkit-linear-gradient(162deg, rgba(0,42,255,1) 0%, rgba(255,0,52,1) 100%);
     // background: linear-gradient(162deg, rgba(0,42,255,1) 0%, rgba(255,0,52,1) 100%);
     // padding: 30px 10px; height:100vh;
-      
+      padding-right: 150px;
       .nav-tabs {
         border-bottom: none;
     }
@@ -68,22 +68,18 @@
     }
       
      
-      
-      .tab-content {
-        padding: 20px;
-        background-color: #fff;
-        font-size: 17px;
-        text-align: center;
-        line-height: 25px;   
-        margin-top: 30px;
-        border-radius: 19px;
-        
-        h3 {
-        font-size: 40px;
-        font-weight: bold;
-    }
-    }
-      
-      
-        
-    }
+}
+.tab-content {
+    // padding: 20px;
+    // background-color: #fff;
+    // font-size: 17px;
+    // text-align: center;
+    // line-height: 25px;   
+    // margin-top: 30px;
+    // border-radius: 19px;
+    
+    h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+}

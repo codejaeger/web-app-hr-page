@@ -1,27 +1,15 @@
 $(' .owl_1').owlCarousel({
     loop:false,
     margin:2, 
-  responsiveClass:true,autoplayHoverPause:true,
-  autoplay:true,
-   slideSpeed: 400,
-      paginationSpeed: 400,
-   autoplayTimeout:3000,
+    responsiveClass:true,
+    slideSpeed: 400,
+    paginationSpeed: 400,
     responsive:{
         0:{
-            items:3,
-            nav:true,
-        loop:false
-        },
-        600:{
-            items:3,
-            nav:true,
-        loop:false
-        },
-        1000:{
-            items:3,
+            items:4,
             nav:true,
             loop:false
-        }
+        },
     }
 })
 

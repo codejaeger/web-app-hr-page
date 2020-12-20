@@ -1,61 +1,51 @@
-.Questions .nav-tabs {
-  border-bottom: none; }
-
-.Questions button.owl-prev {
-  position: absolute;
-  left: 0px;
-  top: 37%;
-  transform: translateY(-50%);
-  background-color: white !important;
-  width: 20px;
-  height: 20px;
-  border-radius: 100% !important;
-  color: #000 !important; }
-
-.Questions button.owl-next {
-  position: absolute;
-  right: 0px;
-  top: 37%;
-  transform: translateY(-50%);
-  background-color: white !important;
-  width: 20px;
-  height: 20px;
-  border-radius: 100% !important;
-  color: #000 !important; }
-
-.Questions .owl-dots {
-  display: none; }
-
-.Questions .item {
-  display: flex;
-  justify-content: center; }
-  .Questions .item li #a2 {
+.Questions {
+  padding-right: 150px; }
+  .Questions .nav-tabs {
+    border-bottom: none; }
+  .Questions button.owl-prev {
+    position: absolute;
+    left: 0px;
+    top: 37%;
+    transform: translateY(-50%);
+    background-color: white !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 100% !important;
+    color: #000 !important; }
+  .Questions button.owl-next {
+    position: absolute;
+    right: 0px;
+    top: 37%;
+    transform: translateY(-50%);
+    background-color: white !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 100% !important;
+    color: #000 !important; }
+  .Questions .owl-dots {
+    display: none; }
+  .Questions .item {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 100%;
-    color: #000;
-    text-transform: uppercase;
-    flex-wrap: wrap;
-    text-align: center;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 700; }
-  .Questions .item li.active #a2 {
-    background-color: #009688;
-    color: #fff; }
+    justify-content: center; }
+    .Questions .item li #a2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      background-color: #fff;
+      border-radius: 100%;
+      color: #000;
+      text-transform: uppercase;
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 700; }
+    .Questions .item li.active #a2 {
+      background-color: #009688;
+      color: #fff; }
 
-.Questions .tab-content {
-  padding: 20px;
-  background-color: #fff;
-  font-size: 17px;
-  text-align: center;
-  line-height: 25px;
-  margin-top: 30px;
-  border-radius: 19px; }
-  .Questions .tab-content h3 {
-    font-size: 40px;
-    font-weight: bold; }
+.tab-content h3 {
+  font-size: 40px;
+  font-weight: bold; }

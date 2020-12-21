@@ -12,22 +12,25 @@ html, body, .grid-container {
 .grid-container {
   display: grid;
   grid-template-columns: 2.2fr 0.1fr 3.4fr 1.2fr 0.1fr 2.1fr;
-  grid-template-rows: 0.2fr 0.9fr 2.1fr 0.1fr 9fr 0.1fr 1.7fr 2.3fr 0.2fr;
+  grid-template-rows: 0.2fr 0.9fr 2.1fr 0.1fr 9fr 0.1fr 1.7fr 1.0fr 1.3fr 0.2fr;
   gap: 0px 0px;
 }
 .Video { grid-area: 5 / 3 / 6 / 5; 
 position: relative;
 overflow: hidden;}
-.Questions { grid-area: 3 / 3 / 4 / 7; 
+.Questions { grid-area: 3 / 3 / 4 / 5; 
   position: relative;
   overflow: hidden;}
-.Grade { grid-area: 5 / 6 / 6 / 7; 
+.Grade { grid-area: 3 / 6 / 8 / 7; 
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.Comment { grid-area: 7 / 3 / 10 / 5;
   position: relative;
   overflow: hidden;}
-.Comment { grid-area: 7 / 3 / 9 / 5;
-  position: relative;
-  overflow: hidden;}
-.Footer { grid-area: 9 / 1 / 10 / 7; 
+.Footer { grid-area: 10 / 1 / 11 / 7; 
   background-color: teal;
   position: relative;
 overflow: hidden;
@@ -35,7 +38,7 @@ overflow: hidden;
 /* .Side1 { grid-area: 7 / 1 / 9 / 2; 
   position: relative;
   overflow: hidden;} */
-.Side2 { grid-area: 7 / 6 / 9 / 7; 
+.Side2 { grid-area: 8 / 6 / 10 / 7; 
   position: relative;
   overflow: hidden;
 }
@@ -57,10 +60,11 @@ overflow: hidden;
   position: relative;
   overflow: hidden;
 }
-.swapArea { grid-area: 5 / 3 / 9 / 7; 
+.swapArea { grid-area: 3 / 3 / 10 / 7; 
   /* position: relative;
   overflow: hidden; */
 }
+
 /* 
 .Video { grid-area: Video; }
 
@@ -109,7 +113,7 @@ overflow: hidden;
 .companyName {
   text-align: right;
   font-size: 25px;
-  margin-right: 10px;
+  margin-right: 13px;
   font-family: Tahoma, sans-serif;
 }
 
@@ -121,10 +125,10 @@ overflow: hidden;
 .image {
   position: relative;
   top: 13px;
-  left: 80px;
+  left: 66px;
   border-radius: 50%;
   height: 160px;
-  width: 160px;
+  width: 180px;
   background: #F5E8DF;
 }
 
@@ -165,7 +169,7 @@ canvas {
 
 #chartjs-radar{
   position: relative;
-  top: 15px;
+  top: 50px;
   left: 3px; 
   width : 300px;
   height: 300px;
@@ -210,7 +214,7 @@ div.options > label > input {
 
 div.options > label {
   display: block;
-  margin: 10px 0% 20px 15%;
+  margin: 0px 0% 20px 15%;
   padding: 0 0 20px 0;  
   height: 20px;
   width: 150px;
@@ -243,4 +247,19 @@ div.options .gradeHeader {
   border-radius: 4px;
   font-size: 25px;
   font-weight: bold;
+}
+
+.fancy-box {
+  background: rgb(214, 212, 59);
+  color: rgb(29, 28, 6);
+  text-align: center;
+  border: 5px solid rgb(105, 62, 6);
+  border-radius: 5px;
+  padding: 6px;
+  margin: 65px 5% 0px 0px ;
+}
+.fancy-box .fancy-heading {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
 }

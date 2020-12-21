@@ -4,7 +4,7 @@
     // background: -webkit-linear-gradient(162deg, rgba(0,42,255,1) 0%, rgba(255,0,52,1) 100%);
     // background: linear-gradient(162deg, rgba(0,42,255,1) 0%, rgba(255,0,52,1) 100%);
     // padding: 30px 10px; height:100vh;
-      padding-right: 150px;
+      // padding-right: 34%;
       .nav-tabs {
         border-bottom: none;
     }
@@ -45,7 +45,7 @@
         justify-content: center; 
         li{
           
-           #a2 {
+           .a2 {
       display: flex;
         align-items: center;
         justify-content: center;
@@ -61,7 +61,7 @@
         font-weight: 700;
     }
           
-          &.active{#a2      
+          &.active{.a2      
             {    background-color: #009688;
         color: #fff;}}
         }

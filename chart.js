@@ -1,3 +1,4 @@
+
 window.chartColors = {
     red: 'rgb(255, 99, 132)',
     orange: 'rgb(255, 159, 64)',
@@ -30,12 +31,12 @@ window.chartColors = {
         borderColor: window.chartColors.red,
         pointBackgroundColor: window.chartColors.red,
         data: [4,1,3,2,2],
-        notes: ["I am pretty happy","I am isolated","none","none","none","none","none","none"]
+        notes: ["I am pretty happy","I am isolated","none","none","none"]
       }]
     },
     options: {
       legend: {
-        position: 'top',
+        position: 'bottom',
       },
     //   title: {
     //     display: true,

@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-#a1 {
+.a1 {
   position: absolute;
-  left: 85%;
-  top: 85%;
-  transform: translate(-85%, -85%);
+  left: 78%;
+  top: 40%;
+  transform: translate(-78%, -40%);
   color: #cecd24;
   text-decoration: none;
   font-size: 2em;
@@ -14,7 +14,7 @@
   border: 2px solid #cecd24;
   transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
 }
-#a1::before {
+.a1::before {
   content: "";
   display: inline-block;
   position: absolute;
@@ -26,7 +26,7 @@
   transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
   z-index: -1;
 }
-#a1::after {
+.a1::after {
   content: "";
   display: inline-block;
   background-image: url("https://image.flaticon.com/icons/png/128/109/109617.png");
@@ -40,15 +40,15 @@
   background-position: center;
   transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
 }
-#a1:hover {
+.a1:hover {
   padding: 0.5em 3.5em 0.5em 0.5em;
 }
-#a1:hover::before {
+.a1:hover::before {
   left: calc(100% - 3em);
   right: 0;
   transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
 }
-#a1:hover::after {
+.a1:hover::after {
   right: 0;
   transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
 }

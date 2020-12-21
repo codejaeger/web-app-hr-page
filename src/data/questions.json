@@ -12,33 +12,33 @@
         },
         {
             "id": "3",
-            "question": "Why do you want to join this company?",
+            "question": "What will you do after joining the company?",
             "video": "https://www.youtube.com/embed/kiyi-C7NQrQ"
         },
         {
             "id": "4",
             "question": "Why do you want to join this company?",
-            "video": "https://www.youtube.com/embed/1BVgpX4w0Wk"
+            "video": "https://www.youtube.com/embed/EngW7tLk6R8"
         },
         {
             "id": "5",
-            "question": "Why do you want to join this company?",
+            "question": "Describe who you are or Tell me about your background?",
             "video": "https://www.youtube.com/embed/kiyi-C7NQrQ"
         },
         {
             "id": "6",
-            "question": "Why do you want to join this company?",
-            "video": ""
+            "question": "What are your strengths and weaknesses?",
+            "video": "https://www.youtube.com/embed/PjfP2tmjtQM"
         },
         {
             "id": "7",
-            "question": "Why do you want to join this company?",
-            "video": ""
+            "question": "You have changed jobs/jumped ship too many times already, why so?",
+            "video": "https://www.youtube.com/embed/Z-fV2lGKnnU"
         },
         {
             "id": "8",
-            "question": "Why do you want to join this company?",
-            "video": ""
+            "question": "What are your strong points? or What are your strengths?",
+            "video": "https://www.youtube.com/embed/zXR_4li9ZnA"
         }
     ]
 }

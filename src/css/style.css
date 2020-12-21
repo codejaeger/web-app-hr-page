@@ -65,51 +65,6 @@ overflow: hidden;
   overflow: hidden; */
 }
 
-/* 
-.Video { grid-area: Video; }
-
-.Questions { grid-area: Questions; }
-
-.Grade { grid-area: Grade; }
-
-.Comment { grid-area: Comment; }
-
-.Footer { grid-area: Footer; }
-
-.Side1 { grid-area: Side1; }
-
-.Side2 { grid-area: Side2; } */
-
-/* .Header {
-  grid-area: Header;
-  background-color: teal;
-} */
-
-/* .Company { 
-  grid-area: Company;
-  display: flex;
-  flex-direction: row-reverse;
-} */
-
-/* .Header2 { grid-area: Header2; } */
-
-/* .Candidate {
-  grid-area: Candidate;
-} */
-
-/* .Footer2 { grid-area: Footer2; } */
-
-/* .grid-container * {
-  border: 1px solid red;
-  position: relative;
-}
-
-.grid-container *:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
-
 .companyName {
   text-align: right;
   font-size: 25px;
@@ -142,11 +97,6 @@ overflow: hidden;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-/* .submit {
-  background-color: lawngreen;
-
-} */
 
 canvas {
   -moz-user-select: none;

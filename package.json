@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "stylus ./src/styl/style.styl -o ./src/styl/style.css",
-    "build-css2": "node-sass ./src/scss/style.scss ./src/scss/style.css",
-    "watch": "browser-sync start --server --files '*.*' './src/css/*.*'",
+    "build-css": "stylus ./src/styl/style.styl -o ./src/styl/style.css && node-sass ./src/scss/style.scss ./src/scss/style.css",
+    "build-js": "browserify ./src/js/index.js ./src/js/chart.js > dist/main.js && browserify ./src/js/loader.js > dist/loader.js",
+    "watch": "browser-sync start --server --files '*.*' './src/css/*.*' './dist/*'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "browser-sync": "^2.26.13",
@@ -18,11 +18,11 @@
     "nodemon": "^2.0.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
     "browserify": "^17.0.0",
     "node-sass": "^5.0.0",
+    "sass-lint": "^1.13.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylint": "^2.0.0",
     "stylus": "^0.54.8",
     "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0"

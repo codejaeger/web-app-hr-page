@@ -1,52 +1,44 @@
 .Questions {
-    // background: rgb(0,42,255);
-    // background: -moz-linear-gradient(162deg, rgba(0,42,255,1) 0%, rgba(255,0,52,1) 100%);
-    // background: -webkit-linear-gradient(162deg, rgba(0,42,255,1) 0%, rgba(255,0,52,1) 100%);
-    // background: linear-gradient(162deg, rgba(0,42,255,1) 0%, rgba(255,0,52,1) 100%);
-    // padding: 30px 10px; height:100vh;
-      // padding-right: 34%;
-      .nav-tabs {
-        border-bottom: none;
-    }
+  .nav-tabs {
+    border-bottom: none;
+  }
     
+  button.owl-prev {
+    position: absolute;
+    left: 0px;
+    top: 37%;
+    transform: translateY(-50%);
+    background-color: white!important;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%!important;
+    color: #000!important;
+  }
       
-      button.owl-prev {
-        position: absolute;
-        left: 0px;
-        top: 37%;
-        transform: translateY(-50%);
-        background-color: white!important;
-        width: 20px;
-        height: 20px;
-        border-radius: 100%!important;
-        color: #000!important;
-    }
-      
-      button.owl-next {
-        position: absolute;
-        right: 0px;
-        top: 37%;
-        transform: translateY(-50%);
-        background-color: white!important;
-        width: 20px;
-        height: 20px;
-        border-radius: 100%!important;
-        color: #000!important;
-    }
-      
-      
-      .owl-dots {
-        display: none;
-    }
+  button.owl-next {
+    position: absolute;
+    right: 0px;
+    top: 37%;
+    transform: translateY(-50%);
+    background-color: white!important;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%!important;
+    color: #000!important;
+  }
       
       
-      .item {
+  .owl-dots {
+    display: none;
+  }
+      
+      
+  .item {
+    display: flex;
+    justify-content: center; 
+    li { 
+      .a2 {
         display: flex;
-        justify-content: center; 
-        li{
-          
-           .a2 {
-      display: flex;
         align-items: center;
         justify-content: center;
         width: 60px;
@@ -59,27 +51,21 @@
         text-align: center;
         font-size: 20px; text-decoration: none;
         font-weight: 700;
-    }
+      }
           
-          &.active{.a2      
-            {    background-color: #009688;
-        color: #fff;}}
+      &.active {
+        .a2 {
+          background-color: #009688;
+          color: #fff;
         }
+      }
     }
-      
-     
+  }
 }
+
 .tab-content {
-    // padding: 20px;
-    // background-color: #fff;
-    // font-size: 17px;
-    // text-align: center;
-    // line-height: 25px;   
-    // margin-top: 30px;
-    // border-radius: 19px;
-    
     h3 {
     font-size: 40px;
     font-weight: bold;
-}
+  }
 }
